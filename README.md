@@ -37,7 +37,7 @@ Goal of the Python Code
 
 The ultimate objective is to utilize data-driven insights to enhance the company's risk management strategies and improve the overall efficiency of the lending process.
 
-Presented by:
-Vivek Vikash
-Vijay Mallepudi
+Presented by:<br>
+Vivek Vikash<br>
+Vijay Mallepudi<br>
 
