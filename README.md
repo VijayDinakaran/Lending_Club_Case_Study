@@ -14,22 +14,22 @@ Lending club, a consumer finance company that focuses on offering different kind
 
 The provided data includes information about past loan applicants and whether they defaulted or not. The objective is to identify patterns that indicate the likelihood of a person defaulting. This information can be used to make informed decisions such as denying the loan, reducing the loan amount, or lending to risky applicants at a higher interest rate.
 
-Loan Application Scenarios
+### Loan Application Scenarios
 
 When a person applies for a loan, the company can either accept or reject the application:
 
-Loan Accepted: If the loan is approved, there are three possible outcomes:
+**Loan Accepted:** If the loan is approved, there are three possible outcomes:
 
-Fully Paid: The applicant has repaid the loan in full, including the principal and interest.
+**Fully Paid:** The applicant has repaid the loan in full, including the principal and interest.
 
-Current: The applicant is in the process of repaying the loan; the loan tenure is not yet completed.
+**Current:** The applicant is in the process of repaying the loan; the loan tenure is not yet completed.
 
-Charged-Off: The applicant has defaulted on the loan, failing to make payments for an extended period.
+**Charged-Off:** The applicant has defaulted on the loan, failing to make payments for an extended period.
 
 Loan Rejected: The company rejects the loan application if the candidate does not meet the requirements. There is no transactional history available for these applicants in the dataset.
 Goal of the Python Code
 
-The Python code presented here will:
+#### The Python code presented here will:
 
     1.Perform Exploratory Data Analysis (EDA) on the provided dataset to uncover patterns and relationships between consumer attributes, loan attributes, and the likelihood of default.
     2.Identify and analyze key variables that serve as strong indicators of loan default.
