@@ -37,6 +37,31 @@ Goal of the Python Code
 
 The ultimate objective is to utilize data-driven insights to enhance the company's risk management strategies and improve the overall efficiency of the lending process.
 
+#### Conclusions
+
+**Correlation Matrix**
+1. Loan amount, investor amount and funded amount are strongly correlated among each other.
+2. Annual income with DTI (Debt-to-income ratio) is negatively correlated, that means whenever annual income is low DTI is high & vice versa.
+3. There is a positive correlation between annual income and employment years which means income increases with work experience
+
+**Segmented Univariate Analysis**
+1.Most of the loans were taken for the purpose of debt consolidation & paying credit card bill
+2. Comparatively number of charged off count are also high for the loans taken for these 2 purpose
+3. Most of people took loan who live in rented house or have mortgaged their property
+
+**Bivariate Analysis**
+1. Grade "A" has very less chances of charged off
+2. Grade "F" and "G" have very high chances of charged off
+
+#### Technologies Used
+pandas version: 1.5.3
+numpy version: 1.24.3
+seaborn version: 0.12.2
+
+
+#### Acknowledgements
+- This project is done as part of IIIT Bangalore Post Graduate Certificate in AI/ML course
+  
 Presented by:<br>
 Vivek Vikash<br>
 Vijay Mallepudi<br>
